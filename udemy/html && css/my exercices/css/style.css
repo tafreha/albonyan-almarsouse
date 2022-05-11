@@ -1,22 +1,34 @@
 /* universal selector*/
 *{ 
     /* border-top: 10px solid #1098ad; */
+    margin:0;
+padding:0;
 
 }
+/* page sections */
 body{
     color:black;
     font-family: sans-serif;
 background-color: beige;
 border-top: 10px solid #ad1010;
+position:relative;
 
 }
-
-
+.container{
+    width:80%;
+    /* margin-left: auto;
+    margin-right:auto; */
+    margin: 0 auto;
+    /* position:relative; */
+}
+article{
+    margin-bottom: 60px;
+}
+/* smaller element */
 h1, h2, h3{
-    color: aqua;
+    color: rgb(26, 94, 94);
 }
 h1{
-    font-size: 26px;
     text-transform: uppercase;
     font-style: italic;
 }
@@ -28,9 +40,15 @@ h2{
 p{
     font-size: 22px;
     line-height: 1.5;
+    margin-bottom:15px;
+    display:inline;
+}
+ul,ol{
+    margin-left:50px;
 }
 li{
     font-size: 20;
+    margin-bottom: 10px;
 }
 /*article header p{
 
@@ -67,12 +85,20 @@ list-style: none;
 }
 .mainheader{
     background-color: #f7f7f7;
+    /* padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px; */
+padding: 10px 10px;
+height:auto;
 }
 aside{
     background-color: #f7f7f7;
     border-top:5px solid #1098ad;
     border-bottom:5px solid #1098ad;
     width:50%;
+    /* padding-top:50px;
+    padding-bottom:50px; */
+    padding:20px 0;
 
 
 }
@@ -88,6 +114,7 @@ font-weight: bold;
 }    
 li:last-child{
     font-style: italic;
+    margin-bottom: 0;
 }
 li:nth-child(even){
     color:red; 
@@ -121,5 +148,54 @@ font-style: italic;
 }
 nav{
     font-size: 18px;
+    text-align: center;
 }
+.past-img{
+    width:100%;
+    height:auto;
+    margin: 100px;
+    
+}
+nav a:link{
+    /* background-color: orangered;
+    margin:10px;
+    padding:2px;
+    display:inline-block;*/
+    margin-right: 20px;
+    margin-top: 5px;
+    display: inline-block;
+} 
+nav a:link:last-child{
+    margin-right: 0;
+}
+button{
+    font-size: 22px;
+    padding:20px;
+    position:absolute;
+    /* top:50px;
+    left:50px; */
+    bottom: 50px;
+    right:50px;
+    background-color: grey;
+    cursor:pointer
+}
+h1::first-letter , h3::first-letter{
+    font-style: italic;
+    font-size: 50px;
+  }
+  h2{
+      /* background-color: orangered; */
+      position:relative;
+  }
+  h2::after{
+      content:"top";
+      background-color: yellow;
+      font-size: 16px;
+      font-weight: bold;
+      display: inline-block;
+      padding: 5px 5px;
+      position:absolute;
+      top:-15px;
+    left:400px;
 
+  }
