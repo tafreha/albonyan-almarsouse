@@ -17,25 +17,29 @@
     <h6> the basic language of web : html</h6>
     -->
     <div class="container">
-    <header class="mainheader">
+    <header class="mainheader clearfix">
     
     <h1>📘 The Code Magazine    </h1>
     <nav>
     <a href="../SECTION2 HTML FUNDAMENTALS/blog.html">Blog</a>
     <a href="#">Challanges</a>
-    <a href="#">CSS Gride</a>
-    <a href="#">Flexable</a>
+       <a href="./css-grid.html">css-grid</a>
+    <a href="./flexbox.html">flexbox</a>
    </nav>
+   <!-- <div class="clear"></div> -->
    </header>
+   <!-- only necessary for flexbox -->
+<!-- <div class="row"></div> -->
 <article>
-    <p>test paragraph</p>
 
     <h2> the basic language of web : html </h2>
-    <img src="../images/laura-jones.jpg"  alt="laura-jones" width="50" height="50" />
+    <div class="auther-box">
+    <img src="../images/laura-jones.jpg"  alt="laura-jones" width="50" height="50" class="auther-img"/>
     <button>like</button>
 
-    <p id="auther">Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027</p>
-    <img class="past-img" src="../images/post-img.jpg" width="" height="" />
+    <p class="auther">Posted by <strong>Laura Jones </strong> on Monday, June 21st 2027</p>
+</div>
+    <img class="post-img" src="../images/post-img.jpg" width="" height="" />
 
         All modern websites and web applications are built using three <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are the languages of the web.
         
@@ -71,20 +75,22 @@ You can learn more at the <a href="https://developer.mozilla.org/en-US/docs/Web/
     <h4>Related posts</h4>
     <UL class="related">
 
-<LI><img src="../images/related-1.jpg" alt="related 1" height="75" width="75">
-    <a href="#">how to learn web development</a>
-    <p class="related_auther">By Jons Schemedmant</p>
+<LI class="related-post"><img src="../images/related-1.jpg" alt="related 1" height="75" width="75">
+   <div> <a href="#" class="related-link">how to learn web development</a>
+    <p class="related-author">By Jons Schemedmant</p>
+</div>
 
 </LI>
-<LI><img src="../images/related-2.jpg" alt="related 1" height="75" width="75">
-    <a href="#">The unknown power of css</a>
-    <p class="related_auther">By Jim Dillon</p>
+<LI class="related-post"><img src="../images/related-2.jpg" alt="related 1" height="75" width="75">
+  <div> <a href="#" class="related-link">The unknown power of css</a>
+    <p class="related-author">By Jim Dillon</p>
+</div>
 
 </LI>
-<LI><img src="../images/related-3.jpg" alt="related 1" height="75" width="75">
-    <a href="#">why javascript is awesome</a>
-    <p class="related_auther">By Mirlled</p>
-
+<LI class="related-post"><img src="../images/related-3.jpg" alt="related 1" height="75" width="75">
+  <div> <a href="#" class="related-link">why javascript is awesome</a>
+    <p class="related-author">By Mirlled</p>
+</div>
 </LI>
 </UL>
 
