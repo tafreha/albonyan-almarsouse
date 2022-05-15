@@ -24,16 +24,16 @@
 - ## Programming foundations path and HTML and CSS
 
     - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 2h 6m 40s` - 01 - [Programming Foundations Fundamentals](https://github.com/tafreha/albonyan-almarsouse/tree/main/linkedin/programmingFoundationFundamentals)
-    - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 2h 4m 44s` - 02 - [Programming Foundations: Beyond the Fundamentals]()
-    - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 2h 40m 37s` - 03 - [Programming Foundations: Object-Oriented Design]()
-    - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 1h 45m 30s` - 04 - [Programming Foundations: Algorithms]()
-    - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 2h 20m 56s` - 05 - [Programming Foundations: Data Structures]()
-    - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 1h 44m 23s` - 06 - [Programming Foundations: Design Patterns]()
+    - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 2h 4m 44s` - 02 - [Programming Foundations: Beyond the Fundamentals](https://github.com/tafreha/albonyan-almarsouse/tree/main/linkedin/programmingFoundationBeyoundFundamentals)
+    - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 2h 40m 37s` - 03 - [Programming Foundations: Object-Oriented Design](https://github.com/tafreha/albonyan-almarsouse/tree/main/linkedin/Programming%20Foundations%20Object%20Oriented%20Design)
+    - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 1h 45m 30s` - 04 - [Programming Foundations: Algorithms](https://github.com/tafreha/albonyan-almarsouse/tree/main/linkedin/programming%20foundation%20algorithms)
+    - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 2h 20m 56s` - 05 - [Programming Foundations: Data Structures](https://github.com/tafreha/albonyan-almarsouse/tree/main/linkedin/Programming%20Foundations%20data%20structure)
+    - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 1h 44m 23s` - 06 - [Programming Foundations: Design Patterns](https://github.com/tafreha/albonyan-almarsouse/tree/main/linkedin/programming%20foundation%20design%20pattern)
     - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 1h 25m 15s` - 07 - [Programming Foundations: Databases](https://github.com/tafreha/albonyan-almarsouse/tree/main/linkedin/Programming%20Foundations%20Databases)
     - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 1h 14m 28s` - 08 - [Programming Foundations: APIs and Web Services](https://github.com/tafreha/albonyan-almarsouse/tree/main/linkedin/Programming%20Foundations%20APIs%20and%20Web%20Services/)
     - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 53m 51s` - 09 - [Programming Foundations: Software Testing/QA](https://github.com/tafreha/albonyan-almarsouse/tree/main/linkedin/Programming%20Foundations%20Software%20TestingQA)
     - [ ] ![#0D64C3](https://via.placeholder.com/12/0D64C3/000000?text=+) ` DONE` ` 2h 11m ` - 10 - [Learning GitHub](https://github.com/tafreha/albonyan-almarsouse/tree/main/linkedin/Learning%20GitHub)
-    - [ ] ![#EC5E5D](https://via.placeholder.com/12/EC5E5D/000000?text=+) ` in progress` ` 37h 30m ` - 11 - [Build Responsive Real-World Websites with HTML and CSS](Udemy/Build-Responsive-Real-World-Websites-with-HTML-and-CSS)
+    - [ ] ![#EC5E5D](https://via.placeholder.com/12/EC5E5D/000000?text=+) ` in progress` ` 37h 30m ` - 11 - [Build Responsive Real-World Websites with HTML and CSS](https://github.com/tafreha/albonyan-almarsouse/tree/main/udemy/Build%20Responsive%20Real-World%20Websites%20with%20HTML%20and%20CSS)
 
     <br />
 
