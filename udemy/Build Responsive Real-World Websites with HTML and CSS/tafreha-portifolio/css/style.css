@@ -340,8 +340,9 @@
 .section-testimonials {
   background-color: #fdf2e9;
   display: grid;
-  grid-template-columns: 55fr 45fr;
+  grid-template-columns: 1fr 25fr;
   align-items: center;
+  padding: 2rem 33rem;
 }
 
 .testimonials-container {
