@@ -150,4 +150,5 @@ Basically, if you are an HTML and CSS master, and build the most beautiful websi
 - Designers who want to expand their skill set into HTML5 and CSS3
 ____________
 <br>[Course Link](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)
-<br>[Preview Certificate]()
+<br>[Preview Certificate](https://www.udemy.com/certificate/UC-f59e9b47-4757-4630-b7b7-0d544b1a7e11/)
+<br> [omnifood proeject](https://omnifood-tafreha.netlify.app/)
