@@ -121,4 +121,6 @@ Check out the course curriculum for an even more detailed overview of the conten
 --------------------------
 [course link](https://www.udemy.com/course/the-complete-javascript-course/)
 <br>[preview course certificate]()
-<br>[course project]()
+<br>[guess my number project " project#1"](https://guess-my-number-tafreha.netlify.app/)
+<br>[model view "project#2"](https://model-view-tafreha.netlify.app/)
+<br>[Dice-game "project#3"](https://dice-game-tafreha.netlify.app/)
