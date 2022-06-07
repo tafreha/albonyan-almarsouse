@@ -1,0 +1,139 @@
+<script>
+    // const game = {
+    //     team1: "bayren",
+    //     team2: "borrusia",
+    //     players: [
+    //         ['neuer', 'david', 'mohamed', 'davis', ],
+    //         ['ahmed', 'fathi', 'mohsen', ]
+    //     ],
+    //     score: '3.0',
+    //     scored: ['ahmed', 'fathi', 'david'],
+    //     date: 'nov 9th, 2037',
+    //     odds: {
+    //         team1: 1.33,
+    //         x: 3.25,
+    //         team2: 6.5,
+    //     },
+    // };
+
+    // challang#1
+
+    // // const [player1, player2] = game.players;
+    // // console.log(player1, player2);
+
+    // // const [gk, ...fieldplayers] = player1;
+    // // console.log(gk, fieldplayers);
+
+    // // // const allPlayers = game.players;
+    // // // console.log(allPlayers);
+    // // const allPlayers = [...player1, ...player2];
+    // // console.log(allPlayers);
+    // // const players1Final = [...player1, 'Thiago', 'Coutinho', 'Perisic'];
+    // // console.log(players1Final);
+    // const { odds: { team1, x: drew, team2 } } = game;
+    // // // console.log(team1, drew, team2);
+    // // // const printGoal = function(...players) {
+    // // //     console.log(players);
+    // // //     console.log(players.length + "goals were scored");
+
+    // // // };
+    // // printGoal(...game.scored);
+    // team1 < team2 && console.log('team is more likely to win')
+
+
+
+
+
+
+    //challange2
+    // // 1#
+    // for (const [i, player] of game.scored.entries())
+    //     console.log("the goal " + i + ", player: " + player);
+    // //2#
+    // let average = 0;
+    // const odds = Object.values(game.odds)
+    // for (const odd of odds)
+    //     average += odd;
+    // average /= odds.length;
+    // console.log(average);
+
+    // for (const [team, odd] of Object.entries(game.odds)) {
+    //     const teamstr = team === 'x' ? 'drew' : " victory " + game[team];
+    //     console.log(teamstr)
+    // }
+
+    // challange#3
+    // const gameevents = new Map([
+    //     [17, 'goal'],
+    //     [36, 'subtitution'],
+    //     [47, 'goal'],
+    //     [61, 'subtitution'],
+    //     [64, 'yellow card'],
+    //     [69, 'red card'],
+    //     [70, 'subtitution'],
+    //     [72, 'subtitution'],
+    //     [76, 'goal'],
+    //     [80, 'goal'],
+    //     [92, 'yellow card'],
+    // ]);
+    // // console.log(gameevents.values());
+    // const events = new Set(gameevents.values());
+    // console.log(events);
+
+
+    // gameevents.delete(64);
+    // console.log(gameevents);
+
+
+    // console.log("an event happen, on average every " + 90 / gameevents.size + " minutes");
+    // const time = [...gameevents.keys()];
+    // console.log(time);
+
+
+
+
+    // for (const [key, value] of gameevents) {
+    //     const half = key <= 45 ? 'first' : 'second';
+    //     console.log("[" + half + " half] " + key + " : " + value)
+
+    // }
+    //challange#4
+
+    // document.body.append(document.createElement('textarea'));
+    // document.body.append(document.createElement('button'));
+    document.getElementsByClassName('button').addEventListener('click', function() {
+        const text = document.querySelector('.textarea').value;
+        const rows = text.split('\n');
+        console.log(rows);
+        for (const row of rows) {
+            const [first, second] = row.toLowerCase().trim().split('-');
+            const output = first
+            second.replace(second[0], second[0].toUpperCase())
+        };
+        console.log(output);
+
+    });
+</script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <textarea class="textarea">
+
+       </textarea>
+
+        <button class="button" type="submit">
+           ok
+       </button>
+    </form>
+</body>
+
+</html>

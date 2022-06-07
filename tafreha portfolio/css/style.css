@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
+    padding: 10px 100px;
 }
 
 .logo {
@@ -37,7 +37,7 @@
     color: #3a6cf4;
     font-size: 1.1em;
     font-weight: 500;
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .navigation a:hover {
@@ -47,7 +47,7 @@
 }
 
 section {
-    padding: 100px 200px;
+    padding: 100px 100px;
 }
 
 .main {
@@ -55,9 +55,20 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(to bottom right, #021344, #390aa7, #273252);
+    background: linear-gradient(to bottom right, #021344, #390aa7, #273252, #390aa7);
     background-size: cover;
     background-attachment: fixed;
+    column-gap: 30px;
+}
+
+.main-img img {
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    width: 276px;
+    height: 331px;
+    margin: 0 67%;
+    box-shadow: #010008ad;
 }
 
 .main h2 {

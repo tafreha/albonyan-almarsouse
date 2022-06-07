@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        color: black;
+        align-items: center;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <h1> closer look at function </h1>
+    <button id='answer-poll'>answer poll</button>
+</body>
+
+</html>
+<script>
+    // const poll = {
+    //     question: 'What is your favourite programming language?',
+    //     options: ['0: JavaScript', '1: Python', '2: Rust', '3: C++'],
+    //     answers: new Array(4).fill(0),
+
+    //     registerNewAnswer() {
+
+    //         const answer = Number(prompt(this.question + "\n choose from 0 to 3 \n " + this.options.join('\n')));
+    //         console.log(answer);
+
+    //         // typeof answer === 'number' && answer < this.answers.length && this.answers[answer]++;
+    //         if (typeof answer === 'number' && answer < this.answers.length)
+    //             this.answers[answer]++;
+
+    //         // console.log(this.answers);
+    //         this.dispplayResult();
+    //         this.dispplayResult('string');
+    //     },
+    //     dispplayResult(type = 'array') {
+    //         if (type === 'array') {
+    //             console.log(this.answers);
+    //         } else if (type === 'string') {
+    //             console.log('poll result are ' + this.answers.join(', '))
+    //         }
+    //     },
+
+
+    // };
+    // document.getElementById('answer-poll').addEventListener('click', poll.registerNewAnswer.bind(poll));
+    // poll.registerNewAnswer();
+
+    // poll.dispplayResult.call({
+    //     answers: [5, 2, 3]
+    // }, 'string');
+    // poll.dispplayResult.call({
+    //     answers: [1, 5, 3, 9, 6, 1]
+    // }, 'string');
+    // poll.dispplayResult.call({
+    //     answers: [1, 5, 3, 9, 6, 1]
+    // });
+
+
+    //challange#2
+
+    (function() {
+        const header = document.querySelector('h1')
+        header.style.color = 'red';
+        document.querySelector('body').addEventListener('click', function() {
+            header.style.color = 'blue';
+
+        });
+
+
+    })();
+
+    // setTimeout(function() {
+
+    //     console.log(" wait second time ");
+
+    // }, 1000);
+    // console.log("waiting time");
+</script>
