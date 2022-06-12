@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // challange1
+
+        const checkDogs = function(dogsJulia, dogsKate) {
+            const dogsJuliaCorrected = dogsJulia.slice();
+            dogsJuliaCorrected.splice(0, 1);
+            dogsJuliaCorrected.splice(-2);
+            const dogs = dogsJuliaCorrected.concat(dogsKate)
+            console.log(dogs);
+
+            dogs.forEach(function(dog, i) {
+                if (dog >= 3) {
+                    console.log(`dog number ${i+1} is an adult,and is ${dog} years old`);
+
+                } else {
+                    console.log(`dog number ${i+1} is still apuppy`);
+                }
+
+
+            });
+
+
+        };
+        checkDogs([2, 3, 4, 5, 6], [2, 6, 8, 1, 7]);
+
+        //    challange2
+
+        const calcAvrageHumanAge = function(ages) {
+            const humanAge = ages.map(age => age <= 2 ? 2 * age : 16 + age * 4);
+            const adults = humanAge.filter(age => age >= 18);
+            console.log(humanAge)
+            console.log(adults)
+            const agesAverage = adults.reduce((acc, age) => (acc + age), 0) / adults.length;
+            console.log(agesAverage);
+        }
+        calcAvrageHumanAge([16, 6, 10, 5, 6, 1, 4]);
+
+        calcAvrageHumanAge([1, 5, 3, 2, 6, 7, 8]);
+
+        //    #chalange3
+        const calcAvrageHumanAge1 = ages =>
+            ages
+            .map(age => (age <= 2 ? 2 * age : 16 + age * 4))
+            .filter(age => age >= 18)
+            .reduce((acc, age, i, arr) => (acc + age) / arr.length, 0);
+        const avg1 = calcAvrageHumanAge1([16, 6, 10, 5, 6, 1, 4]);
+
+        const avg2 = calcAvrageHumanAge1([1, 5, 3, 2, 6, 7, 8]);
+        console.log(avg1, avg2);
+
+
+        // challange#4
+
+        const dogs = [{
+                weight: 22,
+                curfood: 250,
+                owner: ['alice', 'Bab']
+            }, {
+                weight: 8,
+                curfood: 200,
+                owner: ['malida']
+            }, {
+                weight: 13,
+                curfood: 275,
+                owner: ['sarah', 'john']
+            }, {
+                weight: 32,
+                curfood: 340,
+                owner: ['michael']
+            }, ]
+            // 1
+        dogs.forEach(dog => dog.recfood = Math.trunc(dog.weight * .75 * 28));
+
+        console.log(dogs)
+
+        // 2
+
+        const dogSara = dogs.find(dog => dog.owner.includes('sarah'));
+        console.log(dogSara);
+        console.log(`sarah's dog is eating too ${dogSara.curfood > dogSara.recfood ? 'much':'littel'}`);
+
+
+        // 3
+
+
+        const ownerEatTooMuch = dogs.filter(dog => dog.curfood > dog.recfood).flatMap(dog => dog.owner)
+
+        console.log(ownerEatTooMuch)
+
+
+
+        const ownerEatTooLittel = dogs.filter(dog => dog.curfood < dog.recfood).flatMap(dog => dog.owner)
+
+        console.log(ownerEatTooLittel)
+
+
+        // 4
+        console.log(`${ownerEatTooMuch.join(' and ')}'s dogs eating too much!`)
+        console.log(`${ownerEatTooLittel.join(' and ')}'s dogs eating too littel!`)
+
+
+
+
+        //5
+
+        console.log(dogs.some(dog => dog.curfood === dog.recfood));
+        //6
+        const checkEatingOkey = dogs => dogs.curfood > dogs.recfood * .90 &&
+            dogs.curfood < dogs.recfood * 1.1;
+        console.log(dogs.some(checkEatingOkey));
+
+        //7
+        console.log(dogs.filter(checkEatingOkey))
+
+
+        //8
+        const dogSorted = dogs.slice().sort((a, b) => a.recfood - b.recfood);
+        console.log(dogSorted);
+    </script>
+</body>
+
+</html>
