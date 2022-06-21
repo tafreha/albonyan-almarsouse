@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form html</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(to top right, #D0DAE6, #F2E1E7);
+            align-items: center;
+            align-self: center;
+            text-align: center;
+            height: 100vh;
+        }
+        
+        form {
+            background: white;
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            margin: 20px auto;
+            border-radius: 15px;
+            padding: 20px;
+        }
+        
+        .label {
+            padding: 10px;
+            text-align: left;
+            text-transform: lowercase;
+        }
+        
+        span {
+            color: #C7C9C6;
+        }
+        
+        .label::first-letter {
+            text-transform: uppercase;
+        }
+        
+        .input-property {
+            background: #F1F4F9;
+            width: 500px;
+            border-radius: 5px;
+            height: 40px;
+            border: none;
+            padding: 5px;
+        }
+        
+        .textarea {
+            height: 100px;
+        }
+        
+        .checkbox {
+            padding: 10px;
+            margin-top: 10px;
+        }
+        
+        button {
+            padding: 10px;
+            border-radius: 10px;
+            background: #4A6785;
+            color: #cde1e9;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Get started</h1>
+    <p>let's make something cool</p>
+    <form>
+        <h2>Get started with afree quotation</h2>
+        <lable class="label">name</lable> <input type='text' required placeholder="enter your email" class="input-property">
+        <lable class="label">EMAIL</lable> <input type="email" required placeholder='enter your valid email' class='input-property'>
+        <label class="label">MESSAGE</label> <textarea placeholder="enter your message" class="input-property textarea "></textarea>
+
+        <label class="label"><input type="checkbox" class="checkbox"> i accept the<span> terms of services</span></label>
+
+        <button type="submit"> submit your request </button>
+    </form>
+</body>
+
+</html>

@@ -30,41 +30,63 @@
         //problem2
 
 
-        function wordBeforLastLength(sentence) {
+        // function wordBeforLastLength(sentence) {
 
-            //calculate wordBeforLastLength
-            const wordArray = sentence.toLowerCase().split(' ');
-            var i = wordArray.length;
-            while (i--) !/\S/.test(wordArray[i]) && wordArray.splice(i, 1);
+        //     //calculate wordBeforLastLength
+        //     const wordArray = sentence.toLowerCase().split(' ');
+        //     var i = wordArray.length;
+        //     while (i--) !/\S/.test(wordArray[i]) && wordArray.splice(i, 1);
 
-            wordArray.forEach((element, index) => {
-                if (element.length === 1) {
-                    wordArray.splice(index, 1)
-                }
-            });
+        //     wordArray.forEach((element, index) => {
+        //         if (element.length === 1) {
+        //             wordArray.splice(index, 1)
+        //         }
+        //     });
 
 
-            const wordBeforelast = wordArray.slice(--i, -1).join();
+        //     const wordBeforelast = wordArray.slice(--i, -1).join();
 
-            // return wordbeforelast;
-            const wordCount = wordBeforelast.length;
-            //sentense=1word return false
-            if (wordArray.length === 1) {
-                return false;
+        //     // return wordbeforelast;
+        //     const wordCount = wordBeforelast.length;
+        //     //sentense=1word return false
+        //     if (wordArray.length === 1) {
+        //         return false;
 
-                //if sentense =2 words return first word
-            } else if (wordArray.length === 2) {
-                return wordArray[0];
+        //         //if sentense =2 words return first word
+        //     } else if (wordArray.length === 2) {
+        //         return wordArray[0];
 
-            } else {
-                return wordCount
-            }
-        }
-        console.log(wordBeforLastLength('hello, my name is tafreha'));
-        console.log(wordBeforLastLength('hello'));
-        console.log(wordBeforLastLength('hello web'));
-        console.log(wordBeforLastLength('hello, my  a  name    is   a   tafreha'));
-        console.log(wordBeforLastLength('hello, my name is tafreha  a  '));
+        //     } else {
+        //         return wordCount
+        //     }
+        // }
+        // console.log(wordBeforLastLength('hello, my name is tafreha'));
+        // console.log(wordBeforLastLength('hello'));
+        // console.log(wordBeforLastLength('hello web'));
+        // console.log(wordBeforLastLength('hello, my  a  name    is   a   tafreha'));
+        // console.log(wordBeforLastLength('hello, my name is tafreha  a  '));
+
+
+
+        // //problem3
+        // let num = [1, 2, 3, 4, 5]
+        // let [a, b, c, d, e] = num;
+
+        // console.log(a * b)
+
+        //problem4
+        let myskill = ['html', 'laravel', ['css', 'javascript', ['python', 'diango']]];
+        let [a, ...e] = [...myskill]
+        console.log(`my skill is : ${a}, ${e}`)
+            //problem5
+        let arr1 = ['ahmed', 'sameh', 'sayed']
+        let arr2 = ['mohamed', 'gamal', 'marwan']
+        let arr3 = ['mamdouh', 'shady', 'malek']
+        let array = [...arr1, ...arr2, ...arr3]
+            //['ahmed', 'sameh', 'sayed', 'mohamed', 'gamal', 'marwan', 'mamdouh', 'shady', 'malek']
+        console.log(array);
+        [c, , , b, , , , a, ] = array;
+        console.log(`my best friend is:  ${a}, ${b},${c}`)
     </script>
 </body>
 
