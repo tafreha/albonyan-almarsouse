@@ -124,3 +124,6 @@ Check out the course curriculum for an even more detailed overview of the conten
 <br>[guess my number project " project#1"](https://guess-my-number-tafreha.netlify.app/)
 <br>[model view "project#2"](https://model-view-tafreha.netlify.app/)
 <br>[Dice-game "project#3"](https://dice-game-tafreha.netlify.app/)
+<br>[numbers-dates-timers-bankist](https://numbers-dates-timers-bankist.netlify.app/);
+<br>[advanced-dom-banksit](https://advanced-dom-banksit.netlify.app/);
+  
