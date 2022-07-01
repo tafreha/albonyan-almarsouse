@@ -126,4 +126,6 @@ Check out the course curriculum for an even more detailed overview of the conten
 <br>[Dice-game "project#3"](https://dice-game-tafreha.netlify.app/)
 <br>[numbers-dates-timers-bankist](https://numbers-dates-timers-bankist.netlify.app/);
 <br>[advanced-dom-banksit](https://advanced-dom-banksit.netlify.app/);
+<BR>  [forkify](https://tafreha-forkify.netlify.app/); //ifind alot of errors not solved :( 
+<br>[mapty](https://tafreha-mpty.netlify.app/) //can'tapear map:( 
   
