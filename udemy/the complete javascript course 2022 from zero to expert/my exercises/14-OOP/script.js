@@ -253,53 +253,61 @@
 //public fields
 //private fields
 //public method
-//private method
-class account {
-    //1- public fields
-    locate = navigator.language;
-    //2-private field
-    // #movments = [];
-    // pin;
-    constructor(owner, currency, pin) {
-            this.owner = owner;
-            this.currency = currency;
-            this.pin = pin;
-            // this.movments = [];
-            // this.locate = navigator.language;
-            console.log(`thank you opening account ${owner}`);
-        }
-        //public interface
-    getMovments() {
-        return this.movments
-    }
-    deposit(val) {
-        this.movments.push(val);
-    }
-    withdraw(val) {
-        this.deposit(-val);
-    }
-    approvation(val) {
-        return true;
-    }
-    requstion(val) {
-        if (this.approvation(val)) {
-            this.deposit(val);
-            console.log('approved')
-        }
-    }
-}
-const acc1 = new account('jonas', 'eur', 1111);
-console.log(acc1);
-// acc1.movments.push(270)
-// acc1.movments.push(400);
-acc1.deposit(200);
-acc1.withdraw(500)
-acc1.requstion(1000)
-acc1.approvation(1000)
-console.log(acc1.getMovments())
-console.log(acc1);
-console.log(acc1.#movments);
 
-// Chaining
-acc1.deposit(300).deposit(500).withdraw(35).requestLoan(25000).withdraw(4000);
-console.log(acc1.getMovements());
+
+
+// //private method
+// class account {
+//     //1- public fields
+//     locate = navigator.language;
+//     //2-private field
+//     // #movments = [];
+//     // pin;
+//     constructor(owner, currency, pin) {
+//             this.owner = owner;
+//             this.currency = currency;
+//             this.pin = pin;
+//             // this.movments = [];
+//             // this.locate = navigator.language;
+//             console.log(`thank you opening account ${owner}`);
+//         }
+//         //public interface
+//     getMovments() {
+//         return this.movments
+//     }
+//     deposit(val) {
+//         this.movments.push(val);
+//     }
+//     withdraw(val) {
+//         this.deposit(-val);
+//     }
+//     approvation(val) {
+//         return true;
+//     }
+//     requstion(val) {
+//         if (this.approvation(val)) {
+//             this.deposit(val);
+//             console.log('approved')
+//         }
+//     }
+// }
+// const acc1 = new account('jonas', 'eur', 1111);
+// console.log(acc1);
+// // acc1.movments.push(270)
+// // acc1.movments.push(400);
+// acc1.deposit(200);
+// acc1.withdraw(500)
+// acc1.requstion(1000)
+// acc1.approvation(1000)
+// console.log(acc1.getMovments())
+// console.log(acc1);
+// console.log(acc1.#movments);
+
+// // Chaining
+// acc1.deposit(300).deposit(500).withdraw(35).requestLoan(25000).withdraw(4000);
+// console.log(acc1.getMovements());
+
+
+console.log("Hello world!");
+console.group();
+console.log("Hello again, this time inside a group!");
