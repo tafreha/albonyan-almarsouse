@@ -81,3 +81,8 @@
 # Learn How to Make serverless web applications
 ![0%](https://progress-bar.dev/0/?title=Done)
 - [ ] ![#E27152](https://via.placeholder.com/12/E27152/000000?text=+) `in progress` - 18 - [Serverless Stack (SST)](serverless-stack-project/)
+
+-----------------
+<br>[myportofolio](https://tafreha-portofolio.netlify.app/)
+<br>[my linkedin](https://www.linkedin.com/in/tafreha-shaban-ali-thabet-485811198)
+
