@@ -85,4 +85,5 @@
 -----------------
 <br>[myportofolio](https://tafreha-portofolio.netlify.app/)
 <br>[my linkedin](https://www.linkedin.com/in/tafreha-shaban-ali-thabet-485811198)
+<br>[my resume](https://docs.google.com/document/d/1OAEHTJYHaeEjUxLpuZiWzedCjzQ5x36u/edit)
 
